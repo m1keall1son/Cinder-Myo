@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<cinder>
+<block
+	name="Myo Armband"
+	id="org.libcinder.myo"
+	author="Mike Allison"
+	summary="Cinder support for the OSX Myo Armband framework."
+    core="true"
+	>
+	<supports os="macosx" />
+	<source>src/MyoManager.cpp</source>
+    <framework sdk="false">framework/myo.framework</framework>
+    <frameworkPath>framework</frameworkPath>
+    <includePath>src</includePath>
+    <headerPattern>src/*.h</headerPattern>
+</block>
+</cinder>
